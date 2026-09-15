@@ -1,5 +1,11 @@
+:root {
+    --ic-brand-primary: #0076B6;
+    --ic-brand-font-color-dark: #525252;
+    ;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--ic-brand-primary);
     padding: 10px;
 }
 
@@ -10,7 +16,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--ic-brand-font-color-dark);
 }
 
 main img {
@@ -35,7 +41,7 @@ aside {
     border: 1px solid rgba(0, 0, 0, 0.4);
     padding: 1rem;
     background-color: #eee;
-    color: #333;
+    color: var(--ic-brand-font-color-dark);
     text-align: center;
 }
 
