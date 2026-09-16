@@ -1,7 +1,12 @@
 :root {
     --ic-brand-primary: #0076B6;
     --ic-brand-font-color-dark: #525252;
-    ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -25,6 +30,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -33,16 +39,21 @@ p {
 
 main {
     max-width: 840px;
+    padding: 10px;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    padding: 1rem;
-    background-color: #eee;
-    color: var(--ic-brand-font-color-dark);
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    color: #eee;
+    text-shadow: 2px 2px 2px #222;
 }
 
 aside img {
@@ -54,4 +65,13 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #333;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: #eee;
+    color: #333;
 }
