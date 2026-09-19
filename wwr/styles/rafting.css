@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #3B3B3B;
-    --secondary-color: #69130A;
+    --primary-color: #69130A;
+    --secondary-color: #fff;
     --accent1-color: #3B0000;
-    --accent2-color: #08143B;
+    --accent2-color: #3B3B3B;
     --heading-font: Georgia, 'Times New Roman', Times, serif;
     --body-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -28,7 +28,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: #fff;
+    color: var(--secondary-color);
     background-color: var(--accent1-color);
     width: 100%;
     height: auto;
@@ -60,8 +60,8 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.75;
-    background-color: var(--secondary-color);
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .hero article {
@@ -69,8 +69,8 @@ h1 {
     bottom: 40px;
     padding: 16px;
     opacity: 0.75;
-    background-color: var(--secondary-color);
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .hero article img {
