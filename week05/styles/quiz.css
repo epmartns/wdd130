@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #ae2222;
+    --background-gray: #e8e8e8;
+    --soft-gray: rgba(50, 50, 50, .2);
+    --text-color: #3e3e3e;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 0.5rem 2.5rem;
+    color: var(--primary-color);
+}
+
+form {
+    background-color: var(--background-gray);
+    border: 1px solid var(--soft-gray);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+code {
+    background-color: var(--text-color);
+    color: white;
+    display: block;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    min-width: 150px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.question-number {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--soft-gray);
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cd2222;
+    color: #eee;
+    font-size: 2rem;
+    font-weight: 500;
+}
