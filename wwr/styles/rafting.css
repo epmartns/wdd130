@@ -120,6 +120,8 @@ h1 {
     height: 30px;
     bottom: 80px;
     align-items: center;
+    border-radius: 7px;
+    opacity: 1;
 }
 
 .top2 p {
@@ -339,6 +341,7 @@ button[type="submit"] {
     background-color: var(--accent1-color);
     color: white;
     padding: 5px;
+    margin-top: 5px;
     font-size: 1.5rem;
     font-weight: bolder;
     border: none;
@@ -349,4 +352,67 @@ button[type="submit"] {
 button:hover {
     background-color: var(--primary-color);
     color: #eee;
+}
+
+.welcome {
+    display: grid;
+    margin: 5px;
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 1fr;
+    column-rule: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.welcome p {
+    height: 70px;
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+}
+
+.mid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+}
+
+.news {
+    margin: 0;
+    padding: 5px;
+    background-color: #F5E5A5;
+    border: 3px solid var(--primary-color);
+    border-radius: 12px;
+}
+
+form[class="form2"] label {
+    font-weight: 600;
+}
+
+.review {
+    margin: 0;
+    padding: 0;
+}
+
+.review h2 {
+    border-radius: 5px;
+}
+
+.review figure {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.review figure img {
+    width: 150px;
+    border: 2px solid var(--primary-color);
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.review figure figcaption {
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: justify;
 }
