@@ -477,7 +477,7 @@ form[class="form2"] label {
     display: grid;
     margin: 0;
     padding: 10px;
-    grid-template-rows: repeat(3 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
 
