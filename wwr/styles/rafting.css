@@ -452,11 +452,13 @@ form[class="form2"] label {
     text-align: center;
 }
 
-.checktrip a {
+.checktrip a,
+.know a {
     justify-self: center;
 }
 
-.checktrip button {
+.checktrip button,
+.know button {
     background-color: var(--secondary-color);
     border: 4px solid var(--primary-color);
     border-radius: 4px;
@@ -465,4 +467,97 @@ form[class="form2"] label {
     color: var(--accent1-color);
     font-size: 18px;
     font-weight: 600;
+}
+
+.know button {
+    border: 2px solid var(--primary-color);
+}
+
+.learn {
+    display: grid;
+    margin: 0;
+    padding: 10px;
+    grid-template-rows: repeat(3 1fr);
+    gap: 10px;
+}
+
+.learn img {
+    width: 180px;
+}
+
+.trip {
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    margin: 0;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 190px 1fr;
+    align-items: center;
+}
+
+.legend {
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+
+.legend h4 {
+    color: var(--accent1-color);
+}
+
+.legend p {
+    margin: 0;
+    color: var(--accent2-color);
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--accent1-color);
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid var(--accent1-color);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+tbody tr {
+    color: var(--accent2-color);
+}
+
+.trips-section {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+}
+
+.know {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid var(--accent1-color);
+}
+
+.know h2 {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.know img {
+    width: 300px;
+    justify-self: center;
+    margin: 3px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
 }
